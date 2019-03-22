@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SqlStringConverterComponent implements OnInit {
 
-  stringToConvert: string = "wtf?";
+  stringToConvert: string = "paste text here ...";
   lineEndingPattern = /\r\n|[\r\n\u2028\u2029]/g;
   javaCharPattern = /\"|\+/g;
 
