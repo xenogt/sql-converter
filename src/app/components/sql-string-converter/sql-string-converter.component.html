@@ -1,0 +1,14 @@
+
+<div class="container">
+  <h1>STRING CONVERTION</h1>
+  <br /><br />
+  <div class="jumbotron mt-3">
+    <div>
+      <textarea [(ngModel)]="stringToConvert" rows="20" cols="100"></textarea>
+    </div>
+    <div id="buttonsDiv">
+        <button id="toJava" (click)="toJava()" type="button" class="btn btn-secondary">SQL to JAVA</button>
+        <button id="toSQL" (click)="toSQL()" type="button" class="btn btn-secondary">JAVA to SQL</button>
+    </div>
+  </div>
+</div>
